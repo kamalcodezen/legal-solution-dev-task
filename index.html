@@ -24,7 +24,7 @@
 
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+
     <!-- custom css -->
     <link rel="stylesheet" href="./styles/tailwind.init.css">
     <title>Legal Solution</title>
@@ -34,19 +34,21 @@
     <!-- header area style start -->
     <header>
         <!-- nav area start -->
-        <nav>
-            <div>
-                <img src="./images/business.png" alt="">
-                <h3>Justice</h3>
+        <nav class="container mx-auto flex justify-between items-center py-12">
+            <div class="flex justify-center items-center gap-4">
+                <img src="./images/business.png" alt="" class="w-11">
+                <h3 class="text-[35px] font-extrabold text-[rgba(65,64,64,1)]">Justice</h3>
             </div>
-            <ul>
-                <li><a href=""> Home <i class="fa-solid fa-chevron-right"></i></a></li>
+            <ul class="flex items-center text-center  text-[1rem] text-[rgba(112,112,112,1)] gap-7">
+                <li><a href=""> Home</i></a></li>
                 <li><a href="">Services <i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
                 <li><a href="">Blog <i class="fa-solid fa-chevron-right"></i> </a></li>
                 <li><a href="">Contact Us <i class="fa-solid fa-chevron-right"></i> </a></li>
             </ul>
-            <button>Free Consultation</button>
+            <button
+                class="bg-[rgba(182,140,90,1)] text-white font-semibold text-[18px] py-[18px] px-[29px]  text-center rounded-lg ">Free
+                Consultation</button>
         </nav>
         <!-- nav area end -->
     </header>

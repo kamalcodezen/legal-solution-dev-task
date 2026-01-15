@@ -6,7 +6,9 @@ body {
 }
 
 /* poppins font */
-p {
+p,
+a,
+button {
     font-family: "Poppins", sans-serif;
 }
 
