@@ -1,1 +1,19 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+/* garamond font */
+h1,
+h2,
+h3,
+h4 {
+    font-family: "EB Garamond", serif;
+}
+
+/* poppins font */
+p {
+    font-family: "Poppins", sans-serif;
+}
+/* ------shred style------ */
+/* ---container--- */
+.container {
+    max-width: min(90%, 1170px);
+}
