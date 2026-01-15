@@ -1,10 +1,7 @@
 @import "tailwindcss";
 
 /* garamond font */
-h1,
-h2,
-h3,
-h4 {
+body {
     font-family: "EB Garamond", serif;
 }
 
@@ -12,6 +9,7 @@ h4 {
 p {
     font-family: "Poppins", sans-serif;
 }
+
 /* ------shred style------ */
 /* ---container--- */
 .container {
